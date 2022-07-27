@@ -1,0 +1,16 @@
+{
+	"name": "JiraObject1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Jirademo",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "JiraObject",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "\"Agile\".\"Agile_Board\""
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

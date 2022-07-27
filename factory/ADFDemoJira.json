@@ -1,0 +1,9 @@
+{
+	"name": "ADFDemoJira",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "53f6c3d8-a958-46bd-b5a4-bee253451860",
+		"tenantId": "210bf08d-7856-404a-81e6-be58d1966ae9"
+	}
+}

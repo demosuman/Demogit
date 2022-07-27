@@ -1,0 +1,25 @@
+{
+	"name": "DesAzureSqlDataSet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabaseDemo",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"DestinationTable": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": {
+				"value": "@dataset().DestinationTable",
+				"type": "Expression"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
