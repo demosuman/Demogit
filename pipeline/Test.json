@@ -1,5 +1,5 @@
 {
-	"name": "TestingPipeline",
+	"name": "Test",
 	"properties": {
 		"activities": [
 			{
@@ -49,13 +49,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "DelimitedText",
+						"referenceName": "DSBlob",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "DSBlob",
+						"referenceName": "DelimitedText",
 						"type": "DatasetReference"
 					}
 				]
