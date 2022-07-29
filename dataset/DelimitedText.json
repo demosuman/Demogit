@@ -10,8 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "data_72fff4b8-fa1c-4fa4-a590-88897903c20c_c40e957b-1617-4f2b-8c7c-116b03040767.txt",
-				"container": "restapi"
+				"container": "output"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
