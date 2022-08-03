@@ -4,13 +4,21 @@
 		"description": "Daily",
 		"annotations": [],
 		"runtimeState": "Started",
-		"pipelines": [],
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Test",
+					"type": "PipelineReference"
+				}
+			}
+		],
 		"type": "ScheduleTrigger",
 		"typeProperties": {
 			"recurrence": {
-				"frequency": "Minute",
-				"interval": 1,
+				"frequency": "Hour",
+				"interval": 6,
 				"startTime": "2022-08-01T06:35:00Z",
+				"endTime": "2022-08-04T00:47:57Z",
 				"timeZone": "UTC"
 			}
 		}
